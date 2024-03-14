@@ -114,6 +114,15 @@ SUPPORTED_HEATERS = {
         hvac_modes=[HEATER_MODE_COOLAIR, HEATER_MODE_HOTAIR, HEATER_MODE_ECO, HEATER_MODE_OFF],
         swing_modes = [HeaterOscillationAngles.OSC, HeaterOscillationAngles.SIXTY, HeaterOscillationAngles.NINETY, HeaterOscillationAngles.ONE_TWENTY]
     ),
+    "WH729S": DreoDeviceDetails(
+        preset_modes=["H1", "H2", "H3"],
+        range={
+            HEAT_RANGE: (1,3),
+            ECOLEVEL_RANGE: (41,95)
+        },
+        hvac_modes=[HEATER_MODE_COOLAIR, HEATER_MODE_HOTAIR, HEATER_MODE_ECO, HEATER_MODE_OFF],
+        swing_modes = [HeaterOscillationAngles.OSC, HeaterOscillationAngles.SIXTY, HeaterOscillationAngles.NINETY, HeaterOscillationAngles.ONE_TWENTY]
+    ),
     "WH739S": DreoDeviceDetails(
         preset_modes=["H1", "H2", "H3"],
         range={
